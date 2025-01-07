@@ -1,0 +1,10 @@
+закинуть turtle 
+закинуть random
+цвета = ['red', 'purple', 'blue', 'green', 'orange', 'yellow'] 
+черепаха = turtle.Pen() 
+turtle.bgcolor('black') 
+из x в числе(360): 
+    черепаха.pencolor(цвета[random.randint(0, 5)]) 
+    черепаха.width(x//100 + 1) 
+    черепаха.back(x) 
+    черепаха.left(59) 
